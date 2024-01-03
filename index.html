@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+<main id="game">
+  <header id="title"><h1>TIC TAC TOE</h1></header>
+
+  <div class="display">Player <span class="display-player playerX">X</span>turn</div>
+
+  <section class="gameBoard">
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div>
+<div class="cell"></div> 
+</section>
+
+<section class="announcer"></section>
+<section class="controls">
+  <button id="reset">Reset</button>
+</section>
+
+
+</main>
+
+
+<audio autoplay loop id="audio">
+    <source src="img/main_track.mp3" type="audio/mpeg">
+    
+  </audio>
+  <script src="tiktaktoe.js"></script>
+</body>
+</html>
